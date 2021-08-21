@@ -8,7 +8,7 @@ ARG BRANCH="special/CI_development"
 # ghr 0.13.0 2019-09-16
 ARG ghrversion=0.13.0
 
-ARG readlineversion=8.0
+ARG readlineversion=8.1
 ARG termcapversion=1.3.1
 
 RUN dpkg --add-architecture arm64 \
